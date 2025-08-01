@@ -6,7 +6,8 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     MainWindow w;
+
+    // Main function
     w.show();
-    std::cout << "Your application is started...";
     return a.exec();
 }
